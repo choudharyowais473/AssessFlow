@@ -200,7 +200,7 @@ if elapsed >= 5:  # Change 5 to desired seconds
 
 ```python
 results = model(frame, classes=[67, 63], imgsz=320)
-# Classes: 67 = cell phone, 63 = person
+# Classes: 67 = cell phone, 63 Smartphone, 0 = Person 
 # Adjust based on your needs
 ```
 
