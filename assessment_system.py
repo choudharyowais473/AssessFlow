@@ -455,7 +455,7 @@ def run_assessment(api_key: str, category: str = "Physics", difficulty: str = "E
 
 if __name__ == '__main__':
     # Example usage
-    API_KEY = "qa_sk_8eb2410650d879b341228b9d7cf602bb272608f2"
+    API_KEY = "API_KEY"
     results = run_assessment(API_KEY)
     
     if results:
