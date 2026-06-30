@@ -4,7 +4,7 @@ An AI-powered exam proctoring and adaptive assessment system. It combines a Fast
 
 The project has two main components:
 
-1. **Backend API** (`newbackend-10.py`) — a web-facing FastAPI service for auth, adaptive question delivery, and answer scoring.
+1. **Backend API** (`main.py`) — a web-facing FastAPI service for auth, adaptive question delivery, and answer scoring.
 2. **Assessment Engine** (`assessment_system.py`) — a local, end-to-end proctored assessment runner that asks questions out loud, watches the webcam for violations, listens for and scores spoken answers, and clusters results for performance analysis.
 
 ## Features
